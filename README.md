@@ -21,6 +21,6 @@ If you are curious about how to build a more robust development workflow, please
 
 # Additional Notes
 
-1. DO NOT USE THIS IN PRODUCTION
+1. DO NOT USE THIS IN PRODUCTION AS-IS
 2. This only supports 3 endpoints of the Segment Profile API but the same pattern can be applied to all endpoints. See the full reference guide [here](https://segment.com/docs/personas/profile-api/).
 3. If you want to port this to another serverless provider, edit `src\serverless.yml` according to their [docs](https://www.serverless.com/framework/docs/providers/).
