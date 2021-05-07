@@ -18,3 +18,9 @@ We deploy it using the popular [serverless framework](https://www.serverless.com
 5. Run `serverless deploy --stage prod`
 
 If you are curious about how to build a more robust development workflow, please see this [guide](https://www.serverless.com/framework/docs/providers/aws/guide/workflow/). 
+
+# Additional Notes
+
+1. Do not use this in production
+2. This only supports 3 endpoints of the Segment Profile API but the same pattern can be applied to all endpoints. See the full reference guide [here](https://segment.com/docs/personas/profile-api/).
+3. If you want to port this to another serverless provider, edit `src\serverless.yml` according to their [docs](https://www.serverless.com/framework/docs/providers/).
