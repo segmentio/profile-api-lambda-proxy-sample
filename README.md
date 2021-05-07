@@ -14,7 +14,7 @@ We deploy it using the popular [serverless framework](https://www.serverless.com
   "SPACE_ID": "<SPACE_ID>"
 }
 ```
-4. Run `npm install`
+4. Run `cd src` and `npm install`
 5. Run `serverless deploy --stage prod`
 
 # Additional Notes
